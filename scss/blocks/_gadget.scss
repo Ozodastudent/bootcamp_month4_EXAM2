@@ -1,0 +1,50 @@
+.gadget {
+  padding-top: 165px;
+  padding-bottom: 133px;
+  &_text {
+    margin: 0 auto;
+    margin-bottom: 100px;
+    width: 100%;
+    max-width: 826px;
+    &_title {
+      padding: 0 20px;
+      font-weight: 600;
+      font-size: 25px;
+      line-height: 187.5%;
+      text-align: center;
+      color: #222222;
+    }
+    &_desc {
+      margin-top: 24px;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 187.5%;
+      text-align: center;
+      color: #525252;
+    }
+  }
+}
+.cards {
+  &_text {
+    color: #222222;
+  }
+}
+@media only screen and (max-width: 650px) {
+  .gadget {
+    padding-top: 400px;
+  }
+}
+@media only screen and (max-width: 575px) {
+  .gadget {
+    padding-top: 300px;
+    &_text {
+      margin-bottom: 40px;
+      &_title {
+        font-size: 20px;
+      }
+      &_desc {
+        font-size: 14px;
+      }
+    }
+  }
+}

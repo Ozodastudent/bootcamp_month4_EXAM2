@@ -1,13 +1,637 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Template</title>
-  <link rel="stylesheet" href="./css/main.css">
-</head>
-<body>
-
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Digital Agency</title>
+    <link rel="stylesheet" href="./bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./slick-1.8.1/slick/slick.css" />
+    <link rel="stylesheet" href="./slick-1.8.1/slick/slick-theme.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header_first pt-2 d-none d-md-block">
+        <div class="mycontainer d-flex justify-content-end">
+          <ul class="d-flex me-4">
+            <li class="header_first_item list-unstyled">
+              <a
+                href="https://www.google.com/search?tbs=lf:1,lf_ui:14&tbm=lcl&sxsrf=ALiCzsY4rw1gj0_regWpZXXa-g5_gkg8Qg:1664533525049&q=najot+talim&rflfq=1&num=10&ved=2ahUKEwjbuejLprz6AhXO_CoKHSLhCSUQtgN6BAhTEAE#rlfi=hd:;si:;mv:[[41.3630961,69.3053338],[41.2811228,69.19806609999999]];tbs:lrf:!1m4!1u3!2m2!3m1!1e1!1m4!1u2!2m2!2m1!1e1!2m1!1e2!2m1!1e3!3sIAE,lf:1,lf_ui:14
+              "
+                class="header_first_link d-flex text-decoration-none"
+              >
+                <img class="me-3" src="./images/map.svg" alt="map icon here" />
+                Company Address type here
+              </a>
+            </li>
+            <li class="list-unstyled">
+              <a
+                href="tel: +9400000000"
+                class="header_first_link d-flex text-decoration-none"
+              >
+                <img class="me-2" src="./images/phone.svg" alt="phone icon" />
+                +94 000 00000
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="header_second">
+        <div class="mycontainer">
+          <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+              <a class="navbar-brand text-light header_second_logo" href="#"
+                >LOGO</a
+              >
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <div class="navbar-toggler-icon"></div>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a
+                      class="nav-link d-flex align-items-center text-light nav_link_element"
+                      aria-current="page"
+                      href="#"
+                    >
+                      <div
+                        class="circle me-2 rounded-circle d-none d-lg-block bg-light"
+                      ></div>
+                      Home</a
+                    >
+                  </li>
+                  <li class="nav-item nav_item_element">
+                    <a class="nav-link text-light nav_link_element" href="#"
+                      >About us</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-light nav_link_element" href="#"
+                      >Services</a
+                    >
+                  </li>
+                  <li class="nav-item nav_item_element_last">
+                    <a class="nav-link text-light nav_link_element" href="#"
+                      >News</a
+                    >
+                  </li>
+                </ul>
+                <button class="btn btn-light py-2 px-4 header_btn">
+                  Contact
+                </button>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <main>
+      <!-- hero part -->
+      <section class="hero">
+        <div class="mycontainer">
+          <div class="hero_inner">
+            <h5 class="hero_inner_name">Digital Marketing</h5>
+            <h1 class="hero_inner_title">
+              Work that we produce for our clients
+            </h1>
+            <p class="hero_inner_desc">
+              a group of World Wide Web pages usually containing hyperlinks to
+              each other and made available online by an individual, company
+            </p>
+            <button class="hero_inner_btn btn py-3 px-4 rounded-pill">
+              Get more details
+            </button>
+          </div>
+        </div>
+      </section>
+      <!-- discuss part -->
+      <section class="discuss">
+        <div class="mycontainer">
+          <div class="discuss_inner">
+            <div class="discuss_inner_title_box">
+              <h5 class="discuss_inner_title">
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry.
+              </h5>
+            </div>
+            <div class="discuss_text mt-5 mb-5">
+              <h4 class="discuss_text_title">Lorem Ipsum</h4>
+              <p class="discuss_text_desc">
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy
+                text ever since the 1500s,
+              </p>
+            </div>
+            <div class="discuss_images">
+              <img
+                class="discuss_img1 mt-5 d-none d-sm-block"
+                src="./images/product_img.png"
+                alt="people img here"
+              />
+              <img
+                class="discuss_img1_mobile d-block d-sm-none"
+                src="./images/mobile_product_img.png"
+                alt="people img here"
+              />
+              <img
+                class="discuss_img d-none d-sm-flex"
+                src="./images/product_dots.png"
+                alt="dot images"
+              />
+              <img
+                class="discuss_img_mobile d-flex d-sm-none"
+                src="./images/mobile_dots.png"
+                alt="dot images"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- gadget part -->
+      <section class="gadget">
+        <div class="mycontainer">
+          <div class="gadget_inner">
+            <div class="gadget_text">
+              <h5 class="gadget_text_title">
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry.
+              </h5>
+              <p class="gadget_text_desc">
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy
+                text ever since the 1500s,
+              </p>
+            </div>
+            <div class="cards">
+              <ul class="cards_list list-unstyled row justify-content-center">
+                <li class="cards_item col-sm-12 col-md-6 col-lg-4 col-xl-3">
+                  <a
+                    href="#"
+                    class="cards_link text-decoration-none d-flex flex-column align-items-center"
+                  >
+                    <img
+                      src="./images/product_icon1.png"
+                      alt=""
+                      class="cards_img"
+                    />
+                    <p class="cards_text mt-4 mb-4">Mobile Game Development</p>
+                    <img
+                      src="./images/product_direction.svg"
+                      alt=""
+                      class="cards_img"
+                    />
+                  </a>
+                </li>
+                <li
+                  class="cards_item col-sm-12 col-md-6 col-lg-4 col-xl-3 mt-5 mt-md-0"
+                >
+                  <a
+                    href="#"
+                    class="cards_link text-decoration-none d-flex flex-column align-items-center"
+                  >
+                    <img
+                      src="./images/product_icon2.png"
+                      alt=""
+                      class="cards_img"
+                    />
+                    <p class="cards_text mt-4 mb-4">PC Game Development</p>
+                    <img
+                      src="./images/product_direction.svg"
+                      alt=""
+                      class="cards_img"
+                    />
+                  </a>
+                </li>
+                <li
+                  class="cards_item col-sm-12 col-md-6 col-lg-4 col-xl-3 mt-5 mt-lg-0"
+                >
+                  <a
+                    href="#"
+                    class="cards_link text-decoration-none d-flex flex-column align-items-center"
+                  >
+                    <img
+                      src="./images/product_icon3.png"
+                      alt=""
+                      class="cards_img"
+                    />
+                    <p class="cards_text mt-4 mb-4">PS4 Game Development</p>
+                    <img
+                      src="./images/product_direction.svg"
+                      alt=""
+                      class="cards_img"
+                    />
+                  </a>
+                </li>
+                <li
+                  class="cards_item col-sm-12 col-md-6 col-lg-4 col-xl-3 mt-5 mt-xl-0"
+                >
+                  <a
+                    href="#"
+                    class="cards_link text-decoration-none d-flex flex-column align-items-center"
+                  >
+                    <img
+                      src="./images/product_icon4.png"
+                      alt=""
+                      class="cards_img"
+                    />
+                    <p class="cards_text mt-4 mb-4">AR/VR Solutions</p>
+                    <img
+                      src="./images/product_direction.svg"
+                      alt=""
+                      class="cards_img"
+                    />
+                  </a>
+                </li>
+                <li
+                  class="cards_item col-sm-12 col-md-6 col-lg-4 col-xl-3 mt-5"
+                >
+                  <a
+                    href="#"
+                    class="cards_link text-decoration-none d-flex flex-column align-items-center"
+                  >
+                    <img
+                      src="./images/product_icon5.png"
+                      alt=""
+                      class="cards_img"
+                    />
+                    <p class="cards_text mt-4 mb-4">AR/ VR design</p>
+                    <img
+                      src="./images/product_direction.svg"
+                      alt=""
+                      class="cards_img"
+                    />
+                  </a>
+                </li>
+                <li
+                  class="cards_item col-sm-12 col-md-6 col-lg-4 col-xl-3 mt-5"
+                >
+                  <a
+                    href="#"
+                    class="cards_link text-decoration-none d-flex flex-column align-items-center"
+                  >
+                    <img
+                      src="./images/product_icon6.png"
+                      alt=""
+                      class="cards_img"
+                    />
+                    <p class="cards_text mt-4 mb-4">3D Modelings</p>
+                    <img
+                      src="./images/product_direction.svg"
+                      alt=""
+                      class="cards_img"
+                    />
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- corusel part -->
+      <section class="advertisement">
+        <div class="mycontainer">
+          <div class="advertisement_inner">
+            <div class="d-flex align-items-center justify-content-between">
+              <div class="advertisement_text">
+                <h4 class="advertisement_text_title">Lorem ipsum</h4>
+                <p class="advertisement_text_desc">
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry.
+                </p>
+              </div>
+              <div class="d-flex position-relative">
+                <!-- <button
+                  class="slick-prev slick-arrow text-decoration-none"
+                ></button>
+                <button
+                  class="slick-next slick-arrow text-decoration-none"
+                ></button> -->
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="wrapper">
+          <div class="advertisement_cards">
+            <div class="advertisement_card">
+              <button class="advertisement_card_btn btn">Lorem ipsum</button>
+              <h5 class="advertisement_card_title text-dark">Lorem ipsum</h5>
+              <p class="advertisement_card_dec">
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy
+                text ever since the 1500s,
+              </p>
+              <a
+                href="index.html"
+                class="advertisement_card_link d-flex align-items-center text-decoration-none justify-content-end"
+              >
+                Read more
+                <img
+                  class="ms-2"
+                  src="./images/product_direction.svg"
+                  alt="direction icon"
+                />
+              </a>
+            </div>
+            <div class="advertisement_card">
+              <button class="advertisement_card_btn_red btn">
+                Lorem ipsum
+              </button>
+              <h5 class="advertisement_card_title text-dark">Lorem ipsum</h5>
+              <p class="advertisement_card_dec">
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy
+                text ever since the 1500s,
+              </p>
+              <a
+                href="index.html"
+                class="advertisement_card_link d-flex align-items-center text-decoration-none justify-content-end"
+              >
+                Read more
+                <img
+                  class="ms-2"
+                  src="./images/product_direction.svg"
+                  alt="direction icon"
+                />
+              </a>
+            </div>
+            <div class="advertisement_card">
+              <button class="advertisement_card_btn_violet btn">
+                Lorem ipsum
+              </button>
+              <h5 class="advertisement_card_title text-dark">Lorem ipsum</h5>
+              <p class="advertisement_card_dec">
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy
+                text ever since the 1500s,
+              </p>
+              <a
+                href="index.html"
+                class="advertisement_card_link d-flex align-items-center text-decoration-none justify-content-end"
+              >
+                Read more
+                <img
+                  class="ms-2"
+                  src="./images/product_direction.svg"
+                  alt="direction icon"
+                />
+              </a>
+            </div>
+            <div class="advertisement_card">
+              <button class="advertisement_card_btn_blue btn">
+                Lorem ipsum
+              </button>
+              <h5 class="advertisement_card_title text-dark">Lorem ipsum</h5>
+              <p class="advertisement_card_dec">
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy
+                text ever since the 1500s,
+              </p>
+              <a
+                href="index.html"
+                class="advertisement_card_link d-flex align-items-center text-decoration-none justify-content-end"
+              >
+                Read more
+                <img
+                  class="ms-2"
+                  src="./images/product_direction.svg"
+                  alt="direction icon"
+                />
+              </a>
+            </div>
+            <div class="advertisement_card">
+              <button class="advertisement_card_btn_cyan btn">
+                Lorem ipsum
+              </button>
+              <h5 class="advertisement_card_title text-dark">Lorem ipsum</h5>
+              <p class="advertisement_card_dec">
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy
+                text ever since the 1500s,
+              </p>
+              <a
+                href="index.html"
+                class="advertisement_card_link d-flex align-items-center text-decoration-none justify-content-end"
+              >
+                Read more
+                <img
+                  class="ms-2"
+                  src="./images/product_direction.svg"
+                  alt="direction icon"
+                />
+              </a>
+            </div>
+            <div class="advertisement_card">
+              <button class="advertisement_card_btn_yellow btn">
+                Lorem ipsum
+              </button>
+              <h5 class="advertisement_card_title text-dark">Lorem ipsum</h5>
+              <p class="advertisement_card_dec">
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy
+                text ever since the 1500s,
+              </p>
+              <a
+                href="index.html"
+                class="advertisement_card_link d-flex align-items-center text-decoration-none justify-content-end"
+              >
+                Read more
+                <img
+                  class="ms-2"
+                  src="./images/product_direction.svg"
+                  alt="direction icon"
+                />
+              </a>
+            </div>
+            <div class="advertisement_card">
+              <button class="advertisement_card_btn_grey btn">
+                Lorem ipsum
+              </button>
+              <h5 class="advertisement_card_title text-dark">Lorem ipsum</h5>
+              <p class="advertisement_card_dec">
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy
+                text ever since the 1500s,
+              </p>
+              <a
+                href="index.html"
+                class="advertisement_card_link d-flex align-items-center text-decoration-none justify-content-end"
+              >
+                Read more
+                <img
+                  class="ms-2"
+                  src="./images/product_direction.svg"
+                  alt="direction icon"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- recent project part -->
+      <section class="project">
+        <div class="mycontainer">
+          <div class="project_inner">
+            <div class="project_text">
+              <h5 class="project_text_title text-center">
+                Our Recent Projects
+              </h5>
+              <p class="project_text_desc text-center">
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry.
+              </p>
+            </div>
+            <div class="project_images row flex-md-row g-5">
+              <div class="project_images_item col-sm-12 col-md-6 col-xl-4">
+                <div class="project_img">
+                  <img
+                    class="project_photo project_photo_first"
+                    src="./images/project1.png"
+                    alt="idea img"
+                  />
+                </div>
+              </div>
+              <div
+                class="project_images_item project_images_item_second col-sm-12 col-md-6 col-xl-4"
+              >
+                <div class="project_img">
+                  <img
+                    class="project_photo project_photo_second"
+                    src="./images/project2.png"
+                    alt="img here"
+                  />
+                </div>
+              </div>
+              <div class="project_images_item d-none d-xl-block col-xl-4">
+                <div class="project_img">
+                  <img src="./images/project3.png" alt="img here" />
+                </div>
+              </div>
+              <div class="project_images_item d-none d-xl-block col-xl-3">
+                <div class="project_img d-none d-xl-block">
+                  <img src="./images/project6.png" alt="img here" />
+                </div>
+              </div>
+              <div class="project_images_item col-sm-12 col-md-6 col-xl-4">
+                <div class="project_img">
+                  <img
+                    class="project_photo project_photo_five"
+                    src="./images/project4.png"
+                    alt="img here"
+                  />
+                </div>
+              </div>
+              <div
+                class="project_images_item col-sm-12 col-md-6 col-xl-5 ps-xl-5"
+              >
+                <div class="project_img_last">
+                  <img
+                    class="project_photo project_photo_last"
+                    src="./images/project5.png"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- about part -->
+      <section class="meeting">
+        <div class="mycontainer">
+          <div
+            class="meeting_inner d-flex flex-sm-column-reverse justify-content-between align-items-center flex-lg-row"
+          >
+            <div class="meeting_img mt-sm-4">
+              <img
+                class="meeting_img_item"
+                src="./images/info_img.png"
+                alt="people img here"
+              />
+              <img
+                class="meeting_img_item2"
+                src="./images/mobile_meeting.png"
+                alt="people img here"
+              />
+            </div>
+            <div class="meeting_text mt-lg-0">
+              <h5 class="meeting_text_title text-dark">
+                Lorem Ipsum is simply dummy text dummy text
+              </h5>
+              <p class="meeting_text_desc">
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy
+                text ever since the 1500s, when an unknown printer took a galley
+                of type and scrambled it to make a type specimen book. It has
+                survived not only five centuries,
+              </p>
+              <p class="meeting_text_desc">
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry.
+              </p>
+              <a
+                href="index.html"
+                class="meeting_text_link text-decoration-none text-white"
+                >Read more</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- <section class="about">
+        <div class="mycontainer">
+          <div
+            class="about_inner d-flex justify-content-between flex-column-reverse align-items-center flex-lg-row"
+          >
+            <div class="about_image">
+              <img
+                class="about_image_item d-none d-sm-flex"
+                src="./images/info_img.png"
+                alt="group of people"
+              />
+              <img
+                class="d-flex d-sm-none"
+                src="./images/mobile_article.png"
+                alt="group of people"
+              />
+            </div>
+            <div class="about_text">
+              <h3 class="about_text_title text-dark">
+                Lorem Ipsum is simply dummy text dummy text
+              </h3>
+              <p class="about_text_desc">
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy
+                text ever since the 1500s, when an unknown printer took a galley
+                of type and scrambled it to make a type specimen book. It has
+                survived not only five centuries,
+              </p>
+              <p class="about_text_desc">
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry.
+              </p>
+              <a
+                href="#"
+                class="about_text_link text-white text-decoration-none"
+                >Read more</a
+              >
+            </div>
+          </div>
+        </div>
+      </section> -->
+    </main>
+    <footer></footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="./bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./slick-1.8.1/slick/slick.min.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
 </html>

@@ -1,0 +1,68 @@
+.header_first {
+  &_item {
+    margin-right: 70px;
+  }
+  &_link {
+    font-family: "Poppins";
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #1a1a1a;
+  }
+}
+.header_second {
+  padding-top: 15px;
+  padding-bottom: 13px;
+  background: linear-gradient(90.05deg, #e47500 -5.66%, #df7c14 115.63%);
+  &_logo {
+    font-family: "Poppins";
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 155.2%;
+  }
+}
+.circle {
+  width: 10px;
+  height: 10px;
+}
+.nav_item_element {
+  margin-left: 80px;
+  margin-right: 70px;
+  &_last {
+    margin-left: 60px;
+    margin-right: 60px;
+  }
+}
+.nav_link_element {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  &:hover {
+    border-bottom: 1px solid #fff;
+  }
+}
+.header_btn {
+  color: #dc7000;
+}
+.navbar-toggler-icon {
+  width: 26px;
+  height: 21px;
+  background-image: url("../../images/toggle.png");
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: none;
+}
+
+// media part
+@media only screen and (max-width: 992px) {
+  .nav_item_element {
+    margin-left: 0px;
+    margin-right: 0px;
+    &_last {
+      margin-left: 0px;
+      margin-right: 0px;
+    }
+  }
+}

@@ -1,0 +1,118 @@
+.wrapper {
+  width: 95%;
+  margin: 0 auto;
+}
+.advertisement {
+  padding-top: 69px;
+  padding-bottom: 100px;
+  background-color: #f5f5f5;
+  &_text {
+    margin-left: 70px;
+    width: 100%;
+    max-width: 545px;
+    &_title {
+      font-weight: 600;
+      font-size: 30px;
+      line-height: 187.5%;
+      color: #222222;
+    }
+    &_desc {
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 187.5%;
+      color: #525252;
+    }
+  }
+  &_cards {
+    position: relative;
+    margin-top: 65px;
+  }
+  &_card {
+    padding: 35px 39px 35px 39px;
+    border-radius: 20px;
+    background-color: #ffffff;
+    & + & {
+      margin-left: 30px;
+    }
+    &_btn {
+      line-height: 187.5%;
+      color: #0cbe64;
+      background-color: rgba(12, 190, 100, 0.15);
+      &_red {
+        color: #dc0000;
+        background-color: rgba(220, 0, 0, 0.1);
+      }
+      &_violet {
+        color: #b000dc;
+        background-color: rgba(176, 0, 220, 0.11);
+      }
+      &_blue {
+        color: #0058dc;
+        background-color: rgba(0, 88, 220, 0.09);
+      }
+      &_yellow {
+        color: gold;
+        background-color: rgb(245, 245, 205);
+      }
+      &_cyan {
+        color: rgb(5, 128, 128);
+        background-color: rgb(214, 235, 235);
+      }
+      &_grey {
+        color: #000;
+        background-color: lightgray;
+      }
+    }
+    &_title {
+      margin-top: 19px;
+      font-weight: 600;
+      font-size: 20px;
+      line-height: 187.5%;
+    }
+    &_desc {
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 187.5%;
+      color: #525252;
+    }
+    &_link {
+      color: #dc7000;
+    }
+  }
+}
+.slick-arrow {
+  position: relative;
+  & .slick-prev {
+    position: absolute;
+    top: 50px;
+    right: 60px;
+  }
+  & .slick-next {
+    position: absolute;
+    top: 50px;
+    right: 20px;
+  }
+}
+.slick-prev {
+  display: block;
+  width: 40px;
+  height: 40px;
+  background-color: #fff !important;
+  background-image: url("../../images/prevbtn.png");
+  background-size: 7px 13px;
+}
+.slick-next {
+  display: block;
+  width: 40px;
+  height: 40px;
+  background-color: #fff !important;
+  background-image: url("../../images/nextbtn.png");
+  background-size: 7px 13px;
+}
+@media only screen and (max-width: 730px) {
+  .advertisement {
+    &_text {
+      margin-left: 10px;
+    }
+  }
+}
