@@ -3,7 +3,6 @@ $(".advertisement_cards").slick({
   slidesToScroll: 1,
   autoplay: true,
   autoplaySpeed: 2000,
-  dots: true,
   responsive: [
     {
       breakpoint: 480,
@@ -11,11 +10,18 @@ $(".advertisement_cards").slick({
         slidesToShow: 1,
         slidesToScroll: 1,
         infinite: true,
-        dots: true,
       },
     },
     {
-      breakpoint: 600,
+      breakpoint: 630,
+      settings: {
+        slidesToShow: 1.5,
+        slidesToScroll: 1,
+        infinite: true,
+      },
+    },
+    {
+      breakpoint: 700,
       settings: {
         slidesToShow: 2,
         slidesToScroll: 1,

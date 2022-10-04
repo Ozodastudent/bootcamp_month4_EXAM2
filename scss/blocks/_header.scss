@@ -1,6 +1,6 @@
 .header_first {
   &_item {
-    margin-right: 70px;
+    margin-right: 60px;
   }
   &_link {
     font-family: "Poppins";
@@ -38,9 +38,6 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  &:hover {
-    border-bottom: 1px solid #fff;
-  }
 }
 .header_btn {
   color: #dc7000;

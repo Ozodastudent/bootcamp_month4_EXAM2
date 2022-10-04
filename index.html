@@ -180,13 +180,13 @@
                   >
                     <img
                       src="./images/product_icon1.png"
-                      alt=""
+                      alt="photo"
                       class="cards_img"
                     />
                     <p class="cards_text mt-4 mb-4">Mobile Game Development</p>
                     <img
                       src="./images/product_direction.svg"
-                      alt=""
+                      alt="photo"
                       class="cards_img"
                     />
                   </a>
@@ -200,13 +200,13 @@
                   >
                     <img
                       src="./images/product_icon2.png"
-                      alt=""
+                      alt="here photo"
                       class="cards_img"
                     />
                     <p class="cards_text mt-4 mb-4">PC Game Development</p>
                     <img
                       src="./images/product_direction.svg"
-                      alt=""
+                      alt="here photo"
                       class="cards_img"
                     />
                   </a>
@@ -220,13 +220,13 @@
                   >
                     <img
                       src="./images/product_icon3.png"
-                      alt=""
+                      alt="img here do"
                       class="cards_img"
                     />
                     <p class="cards_text mt-4 mb-4">PS4 Game Development</p>
                     <img
                       src="./images/product_direction.svg"
-                      alt=""
+                      alt="img here do"
                       class="cards_img"
                     />
                   </a>
@@ -240,13 +240,13 @@
                   >
                     <img
                       src="./images/product_icon4.png"
-                      alt=""
+                      alt="img here"
                       class="cards_img"
                     />
                     <p class="cards_text mt-4 mb-4">AR/VR Solutions</p>
                     <img
                       src="./images/product_direction.svg"
-                      alt=""
+                      alt="img here"
                       class="cards_img"
                     />
                   </a>
@@ -260,13 +260,13 @@
                   >
                     <img
                       src="./images/product_icon5.png"
-                      alt=""
+                      alt="img here"
                       class="cards_img"
                     />
                     <p class="cards_text mt-4 mb-4">AR/ VR design</p>
                     <img
                       src="./images/product_direction.svg"
-                      alt=""
+                      alt="img here"
                       class="cards_img"
                     />
                   </a>
@@ -280,13 +280,13 @@
                   >
                     <img
                       src="./images/product_icon6.png"
-                      alt=""
+                      alt="img here"
                       class="cards_img"
                     />
                     <p class="cards_text mt-4 mb-4">3D Modelings</p>
                     <img
                       src="./images/product_direction.svg"
-                      alt=""
+                      alt="img here"
                       class="cards_img"
                     />
                   </a>
@@ -299,7 +299,7 @@
       <!-- corusel part -->
       <section class="advertisement">
         <div class="mycontainer">
-          <div class="advertisement_inner">
+          <div class="advertisement_inner position-relative">
             <div class="d-flex align-items-center justify-content-between">
               <div class="advertisement_text">
                 <h4 class="advertisement_text_title">Lorem ipsum</h4>
@@ -308,18 +308,10 @@
                   typesetting industry.
                 </p>
               </div>
-              <div class="d-flex position-relative">
-                <!-- <button
-                  class="slick-prev slick-arrow text-decoration-none"
-                ></button>
-                <button
-                  class="slick-next slick-arrow text-decoration-none"
-                ></button> -->
-              </div>
             </div>
           </div>
         </div>
-        <div class="wrapper">
+        <div>
           <div class="advertisement_cards">
             <div class="advertisement_card">
               <button class="advertisement_card_btn btn">Lorem ipsum</button>
@@ -489,7 +481,9 @@
                 industry.
               </p>
             </div>
-            <div class="project_images row flex-md-row g-5">
+            <div
+              class="project_images row flex-column align-items-center justify-content-center flex-md-row flex-md-row g-5"
+            >
               <div class="project_images_item col-sm-12 col-md-6 col-xl-4">
                 <div class="project_img">
                   <img
@@ -523,8 +517,13 @@
               <div class="project_images_item col-sm-12 col-md-6 col-xl-4">
                 <div class="project_img">
                   <img
-                    class="project_photo project_photo_five"
+                    class="project_photo d-none d-md-block project_photo_five"
                     src="./images/project4.png"
+                    alt="img here"
+                  />
+                  <img
+                    class="project_photo d-block d-md-none project_photo_last"
+                    src="./images/project5.png"
                     alt="img here"
                   />
                 </div>
@@ -534,9 +533,14 @@
               >
                 <div class="project_img_last">
                   <img
-                    class="project_photo project_photo_last"
+                    class="project_photo d-none d-md-block project_photo_last"
                     src="./images/project5.png"
-                    alt=""
+                    alt="img here"
+                  />
+                  <img
+                    class="project_photo d-block d-md-none project_photo_last2"
+                    src="./images/project3.png"
+                    alt="img here"
                   />
                 </div>
               </div>
@@ -544,7 +548,7 @@
           </div>
         </div>
       </section>
-      <!-- about part -->
+      <!-- meeting part -->
       <section class="meeting">
         <div class="mycontainer">
           <div
@@ -586,49 +590,168 @@
           </div>
         </div>
       </section>
-      <!-- <section class="about">
+      <!-- contactation part -->
+      <article class="contact">
         <div class="mycontainer">
-          <div
-            class="about_inner d-flex justify-content-between flex-column-reverse align-items-center flex-lg-row"
-          >
-            <div class="about_image">
-              <img
-                class="about_image_item d-none d-sm-flex"
-                src="./images/info_img.png"
-                alt="group of people"
-              />
-              <img
-                class="d-flex d-sm-none"
-                src="./images/mobile_article.png"
-                alt="group of people"
-              />
-            </div>
-            <div class="about_text">
-              <h3 class="about_text_title text-dark">
-                Lorem Ipsum is simply dummy text dummy text
-              </h3>
-              <p class="about_text_desc">
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s, when an unknown printer took a galley
-                of type and scrambled it to make a type specimen book. It has
-                survived not only five centuries,
-              </p>
-              <p class="about_text_desc">
+          <div class="contact_inner">
+            <div class="contact_text">
+              <h5 class="contact_text_title">Lorem Ipsum</h5>
+              <p class="contact_text_desc">
                 Lorem Ipsum is simply dummy text of the printing and typesetting
                 industry.
               </p>
-              <a
-                href="#"
-                class="about_text_link text-white text-decoration-none"
-                >Read more</a
-              >
+            </div>
+            <div
+              class="contact_news d-flex justify-content-between align-items-center flex-column flex-lg-row"
+            >
+              <div class="contact_news_text mb-sm-3 mb-lg-0">
+                <h5 class="contact_news_text_title text-white">
+                  Stay in the loop
+                </h5>
+                <p class="contact_news_text_desc text-white">
+                  Subscribe to receive the latest news and updates about TDA. We
+                  promise not to spam you!
+                </p>
+              </div>
+              <div class="contact_news_input">
+                <form
+                  action="https://echo.htmlacademy.ru/"
+                  class="contact_news_input_item position-relative"
+                  method="POST"
+                >
+                  <input
+                    type="email"
+                    class="contact_news_input_element form-control py-3 rounded-3"
+                    placeholder="Enter email address"
+                    aria-label="Enter email address"
+                    aria-describedby="button-addon2"
+                  />
+                  <button
+                    class="contact_news_btn text-white position-absolute"
+                    type="submit"
+                    id="button-addon2"
+                  >
+                    Continue
+                  </button>
+                </form>
+              </div>
             </div>
           </div>
         </div>
-      </section> -->
+      </article>
     </main>
-    <footer></footer>
+    <!-- footer part -->
+    <footer class="footer mt-5">
+      <div class="mycontainer">
+        <div class="footer_inner d-none d-xl-flex justify-content-between">
+          <div class="footer_inner_first">
+            <a
+              href="#"
+              class="header_second_logo text-decoration-none text-white"
+              >LOGO</a
+            >
+            <p class="footer_first_desc text-white">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry.
+            </p>
+            <p class="copy copyright text-white">&copy;Company.com</p>
+          </div>
+          <div class="footer_inner_second me-lg-3">
+            <ul class="footer_list text-white list-unstyled">
+              <a
+                href="#"
+                class="footer_item_title text-decoration-none text-white"
+                >About</a
+              >
+              <li class="footer_item mt-3">
+                <a href="#" class="footer_link text-decoration-none text-white"
+                  >Company</a
+                >
+              </li>
+              <li class="footer_item mt-1">
+                <a href="#" class="footer_link text-decoration-none text-white"
+                  >Portfolio</a
+                >
+              </li>
+              <li class="footer_item mt-1">
+                <a href="#" class="footer_link text-decoration-none text-white"
+                  >Careers</a
+                >
+              </li>
+              <li class="footer_item mt-1">
+                <a href="#" class="footer_link text-decoration-none text-white"
+                  >Contact us</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="footer_inner_three">
+            <ul class="footer_list text-white list-unstyled">
+              <a
+                href="#"
+                class="footer_item_title text-decoration-none text-white"
+                >Contact us</a
+              >
+              <li class="footer_item mt-3">
+                <a href="#" class="footer_link text-decoration-none text-white"
+                  >Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry.
+                </a>
+              </li>
+              <li class="footer_item mt-2">
+                <a
+                  href="tel: +9400000000"
+                  class="footer_link text-decoration-none text-white"
+                  >+9000 0000 000</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="footer_inner_four d-flex align-items-end">
+            <div class="footer_icon">
+              <a class="text-decoration-none" href="#">
+                <img
+                  src="./images/facebook.png"
+                  alt="icon here"
+                  class="footer_icon_img"
+                />
+              </a>
+            </div>
+            <div class="footer_icon">
+              <a class="text-decoration-none" href="#">
+                <img
+                  src="./images/instag.png"
+                  alt="footer icon here"
+                  class="footer_icon_img"
+                />
+              </a>
+            </div>
+            <div class="footer_icon">
+              <a class="text-decoration-none" href="#">
+                <img
+                  src="images/twitter.png"
+                  alt="footer icon here"
+                  class="footer_icon_img"
+                />
+              </a>
+            </div>
+            <div class="footer_icon">
+              <a class="text-decoration-none" href="#">
+                <img
+                  src="./images/linked.png"
+                  alt="footer icon here"
+                  class="footer_icon_img"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr class="bg-light d-none d-xl-block" />
+      <p class="footer_bootom_text text-white text-center mt-3">
+        Copyright &reg; 2021 Company All rights Rcerved
+      </p>
+    </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="./bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="./slick-1.8.1/slick/slick.min.js"></script>

@@ -1,1 +1,49 @@
-
+.footer {
+  background-color: #1b1b1b;
+  &_inner {
+    padding: 66px 25px 29px 30px;
+    &_first {
+      width: 100%;
+      max-width: 372px;
+      &_desc {
+        margin-top: 20px;
+        margin-bottom: 25px;
+        font-family: "Poppins";
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+      }
+    }
+    &_three {
+      width: 100%;
+      width: 282px;
+    }
+  }
+  &_bootom_text {
+    padding-top: 29px;
+    padding-bottom: 29px;
+    font-family: "Poppins";
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 190.6%;
+  }
+  &_item {
+    &_title {
+      font-family: "Poppins";
+      font-weight: 500;
+      font-size: 17px;
+      line-height: 26px;
+    }
+  }
+}
+.copyright {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+@media only screen and (max-width: 991px) {
+  .footer {
+    padding: 22px 0 27px 0;
+  }
+}
